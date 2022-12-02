@@ -28,3 +28,40 @@ namespace Demo
 }
 
 ![image](https://user-images.githubusercontent.com/31475304/204727537-03fa383e-f335-4943-860d-7bcfc1d6df60.png)
+
+#Find Max / Equal Using 2 Numbers
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Demo1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int n1,n2;
+            Console.WriteLine("Enter First Value");
+            n1= int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Second Value");
+            n2= int.Parse(Console.ReadLine());
+            if(n1<n2)
+            {
+                Console.WriteLine("N2 is Max");
+            }
+            else if(n1 == n2)
+            {
+                Console.WriteLine("Both Are Equal");
+            }
+            else
+            {
+                Console.WriteLine("N1 is Max");
+            }
+            Console.Read();
+        }
+    }
+}
+![image](https://user-images.githubusercontent.com/31475304/205203888-afe84ab8-8d8b-4326-882f-83678dfe3f95.png)
+
