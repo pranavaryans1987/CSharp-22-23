@@ -1,6 +1,6 @@
 # BCA2022-23CSharp
 
-#Addition Of 2 Numbers
+#1. Addition Of 2 Numbers
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +29,7 @@ namespace Demo
 
 ![image](https://user-images.githubusercontent.com/31475304/204727537-03fa383e-f335-4943-860d-7bcfc1d6df60.png)
 
-#Find Max / Equal Using 2 Numbers
+#2. Find Max / Equal Using 2 Numbers
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,3 +65,29 @@ namespace Demo1
 }
 ![image](https://user-images.githubusercontent.com/31475304/205203888-afe84ab8-8d8b-4326-882f-83678dfe3f95.png)
 
+#3. Boxing And Unboxing
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Demo1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10;
+
+            object obj;
+
+            obj= a;//Boxing
+            Console.WriteLine(obj);
+            int b = (int)obj;//Unboxing
+            Console.WriteLine(b);
+            Console.Read();
+        }
+    }
+}
+![image](https://user-images.githubusercontent.com/31475304/205205701-2f97850a-2881-49eb-8843-0a6d9fdfc773.png)
