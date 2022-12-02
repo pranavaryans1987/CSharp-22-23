@@ -1,6 +1,8 @@
 # BCA2022-23CSharp
 
-#1. Addition Of 2 Numbers
+# 1. Addition Of 2 Numbers'
+
+```
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,10 +28,13 @@ namespace Demo
         }
     }
 }
-
+```
+## OUTPUT
 ![image](https://user-images.githubusercontent.com/31475304/204727537-03fa383e-f335-4943-860d-7bcfc1d6df60.png)
 
-#2. Find Max / Equal Using 2 Numbers
+# 2. Find Max / Equal Using 2 Numbers
+
+```
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,9 +68,14 @@ namespace Demo1
         }
     }
 }
+```
+
+## OUTPUT
+
 ![image](https://user-images.githubusercontent.com/31475304/205203888-afe84ab8-8d8b-4326-882f-83678dfe3f95.png)
 
-#3. Boxing And Unboxing
+# 3. Boxing And Unboxing
+```
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -90,4 +100,6 @@ namespace Demo1
         }
     }
 }
+```
+## OUTPUT
 ![image](https://user-images.githubusercontent.com/31475304/205205701-2f97850a-2881-49eb-8843-0a6d9fdfc773.png)
