@@ -102,7 +102,7 @@ namespace Demo1
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/31475304/205205701-2f97850a-2881-49eb-8843-0a6d9fdfc773.png)
 
-#4 . Rectangular Array
+# 4 . Rectangular Array
 ```
 using System;
 using System.Collections.Generic;
