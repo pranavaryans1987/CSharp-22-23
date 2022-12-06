@@ -101,3 +101,40 @@ namespace Demo1
 ```
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/31475304/205205701-2f97850a-2881-49eb-8843-0a6d9fdfc773.png)
+
+#4 . Rectangular Array
+```
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Demo1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter Array Size : ");
+            int count = Convert.ToInt32(Console.ReadLine());
+            int[,] array = new int[count,count];
+            for(int i = 0; i < count;i++) 
+            {
+                for (int j = 0; j < count; j++)
+                {
+                    Console.Write("Enter Value For Array " + i+""+j + ":");
+                    array[i,j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+            foreach(int i in array)
+            {
+                Console.WriteLine(i);
+            }
+            Console.Read();
+        }
+    }
+}
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/31475304/205809771-43359f63-17b5-40c2-b6d3-aa27a638d679.png)
